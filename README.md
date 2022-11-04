@@ -1,2 +1,2 @@
 # google-keep
-I am creating google keep clone
+Google Keep App Clone built with reactJs and .net web api

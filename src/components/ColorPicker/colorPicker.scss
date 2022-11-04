@@ -1,0 +1,46 @@
+.colorPickerContainer{
+    left: 95%;
+    position: relative;
+    .colorBtn{
+        color: #666;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 30px !important;
+        height: 30px !important;
+        background: gray !important;
+        &:hover {
+          color: #333;
+        }
+    }
+    .pallette{
+        position: absolute;
+        top: -115px;
+        left: -50px;
+        z-index: 10;
+        background: #fff;
+        box-shadow: 0px 0px 2px 1px rgba(122, 122, 122, 0.5);
+        width: 125px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .btnColor{
+        box-shadow: 0px 0px 2px 1px rgba(122, 122, 122, 0.5);
+        opacity: 0.8;
+        margin: 5px;
+        outline: none;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        border: none;
+        &:hover {
+          border: 2px solid #333;
+          box-shadow: none;
+        }
+    }
+}
+.fa-paint-brush{
+   
+}
